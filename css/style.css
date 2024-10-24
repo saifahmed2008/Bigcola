@@ -317,6 +317,13 @@ header nav li a:hover{
         margin-right: 30px;
        
     }
+    .parent{
+        display: flex;
+        flex-direction: column;
+    }
+    .last{
+        height: fit-content;
+    }
 }
 
 @media (max-width:786px){
@@ -340,7 +347,13 @@ header nav li a:hover{
         margin-bottom: -10px;
    
     }
-
+    .parent{
+        display: flex;
+        flex-direction: column;
+    }
+    .last{
+        height: fit-content;
+    }
 
 }
 
@@ -358,6 +371,13 @@ header nav li a:hover{
     }
     #navi nav ul li a{
         padding: 0 5px;
+    }
+    .parent{
+        display: flex;
+        flex-direction: column;
+    }
+    .last{
+        height: fit-content;
     }
 
 
@@ -379,6 +399,13 @@ header nav li a:hover{
       
         
        
+    }
+    .parent{
+        display: flex;
+        flex-direction: column;
+    }
+    .last{
+        height: fit-content;
     }
 }
 @media (max-width:700px){
@@ -470,6 +497,13 @@ header nav li a:hover{
         width: 50%;
 
     }
+    .last{
+        height: fit-content;
+    }
+    .parent{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media (max-width:537px){
@@ -490,6 +524,13 @@ header nav li a:hover{
     }
     .content h1{
         font-size: 35px;
+    }
+    .last{
+        height: fit-content;
+    }
+    .parent{
+        display: flex;
+        flex-direction: column;
     }
 }
 
